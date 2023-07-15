@@ -1,10 +1,8 @@
 import React, { useContext, useState } from "react";
 import axios from "axios";
 
-// const baseURL = "http://localhost:5000/api/v1/";
-// const baseURL="https://moneymatters-node-m1ffevn88-prernasngh.vercel.app/api/v1/"
 const baseURL="https://moneymatters-node.vercel.app/api/v1/";
-// const baseURL="https://moneymatters-node-hgyo2qunx-prernasngh.vercel.app/api/v1/";
+
 
 const GlobalContext = React.createContext();
 
